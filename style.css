@@ -1,0 +1,83 @@
+body{
+    margin:0;
+    font-family: Arial;
+    background:#111;
+    color:white;
+}
+
+/* NAVBAR */
+
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 30px;
+    background:black;
+}
+
+.logo{
+    font-size:22px;
+    font-weight: bold;
+    color:#e60000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#search{
+    padding:8px;
+    width:300px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    background-color: #333;
+    color: #fff;
+}
+
+/* ALBUM GRID */
+
+.album-container{
+    display:grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px,1fr));
+    gap:25px;
+    padding:30px;
+}
+
+/* CARD */
+
+.album-card{
+    background:#1a1a1a;
+    padding:15px;
+    border-radius:10px;
+    text-align:center;
+    transition:0.2s;
+    font-size: 50%;
+
+}
+
+.album-card:hover{
+    transform:scale(1.05);
+}
+
+.album-card img{
+    width:100%;
+}
+
+button{
+    margin-top:10px;
+    padding:10px;
+    background:#e60000;
+    border:none;
+    color:white;
+    cursor:pointer;
+    border-radius:5px;
+}
+
+button:hover{
+    background:#ff1a1a;
+}
+.choose{
+    font-size:22px;
+    font-weight: bold;
+    color:#e60000;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
